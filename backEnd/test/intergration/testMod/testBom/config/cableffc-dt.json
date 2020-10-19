@@ -1,0 +1,2767 @@
+{
+  "xlsxName": "Test_DataV2_cableffc_DT_AIO.xlsx",
+  "sheetName": "cable ffc",
+  "startHorizontalCoordinates": "C",
+  "transferMode": "createPath",
+  "formate": "cable-ffc",
+  "metadata": {
+    "productType": {
+      "createPath": "productType",
+      "valuekey": "productType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": "2"
+    },
+    "testLabel": {
+      "createPath": "testLabel",
+      "valuekey": "testLabel",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": "3"
+    },
+    "type1": {
+      "createPath": "type1",
+      "valuekey": "type1",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": "8"
+    },
+    "type2": {
+      "createPath": "type2",
+      "valuekey": "type2",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": "9"
+    }
+  },
+  "transferPartlistInfo": {
+    "formData,FFCTab,FFCItems,partname": {
+      "createPath": "formData.FFCTab.FFCItems.partname",
+      "valuekey": "partname",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 4,
+      "default": null
+    },
+    "formData,FFCTab,FFCItems,partnumber": {
+      "createPath": "formData.FFCTab.FFCItems.partnumber",
+      "valuekey": "partnumber",
+      "valueType": null,
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCMaterial,FFCCopperWire,FFCCopperWireSpec": {
+      "createPath": "formData.FFCTab.FFCMaterial.FFCCopperWire.FFCCopperWireSpec",
+      "valuekey": "FFCCopperWireSpec",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 11,
+      "default": null
+    },
+    "formData,FFCTab,FFCMaterial,FFCCopperWire,FFCPin": {
+      "createPath": "formData.FFCTab.FFCMaterial.FFCCopperWire.FFCPin",
+      "valuekey": "FFCPin",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 12,
+      "default": null
+    },
+    "formData,FFCTab,FFCMaterial,FFCCopperWire,FFCPitch": {
+      "createPath": "formData.FFCTab.FFCMaterial.FFCCopperWire.FFCPitch",
+      "valuekey": "FFCPitch",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 13,
+      "default": null
+    },
+    "formData,FFCTab,FFCMaterial,FFCCopperWire,FFCLength": {
+      "createPath": "formData.FFCTab.FFCMaterial.FFCCopperWire.FFCLength",
+      "valuekey": "FFCLength",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 14,
+      "default": null
+    },
+    "formData,FFCTab,FFCMaterial,FFCCoating,FFCCoatingSpec": {
+      "createPath": "formData.FFCTab.FFCMaterial.FFCCoating.FFCCoatingSpec",
+      "valuekey": "FFCCoatingSpec",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 21,
+      "default": null
+    },
+    "formData,FFCTab,FFCMaterial,FFCCoating,FFCCoatingSpecPrice": {
+      "createPath": "formData.FFCTab.FFCMaterial.FFCCoating.FFCCoatingSpecPrice",
+      "valuekey": "FFCCoatingSpecPrice",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": null,
+      "default": 0
+    },
+    "formData,FFCTab,FFCMaterial,FFCCoating,FFCCopperWireSpecPrice": {
+      "createPath": "formData.FFCTab.FFCMaterial.FFCCoating.FFCCopperWireSpecPrice",
+      "valuekey": "FFCCopperWireSpecPrice",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": null,
+      "default": 0
+    },
+    "formData,FFCTab,FFCSecondaryProcessing,FFCStopLineLabel,FFCStopLine": {
+      "createPath": "formData.FFCTab.FFCSecondaryProcessing.FFCStopLineLabel.FFCStopLine",
+      "valuekey": "FFCStopLine",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 41,
+      "default": null
+    },
+    "formData,FFCTab,FFCSecondaryProcessing,FFCPrintLabel,FFCPrintArea": {
+      "createPath": "formData.FFCTab.FFCSecondaryProcessing.FFCPrintLabel.FFCPrintArea",
+      "valuekey": "FFCPrintArea",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 47,
+      "default": null
+    },
+    "formData,FFCTab,FFCSecondaryProcessing,FFCGoldPlatingLabel,FFCGoldPlating": {
+      "createPath": "formData.FFCTab.FFCSecondaryProcessing.FFCGoldPlatingLabel.FFCGoldPlating",
+      "valuekey": "FFCGoldPlating",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 52,
+      "default": null
+    },
+    "formData,FFCTab,FFCSecondaryProcessing,FFCFlush,FFCFlushCount": {
+      "createPath": "formData.FFCTab.FFCSecondaryProcessing.FFCFlush.FFCFlushCount",
+      "valuekey": "FFCFlushCount",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 61,
+      "default": null
+    },
+    "formData,FFCTab,FFCSecondaryProcessing,FFCBendTImesLabel,FFCBendTImes": {
+      "createPath": "formData.FFCTab.FFCSecondaryProcessing.FFCBendTImesLabel.FFCBendTImes",
+      "valuekey": "FFCBendTImes",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 66,
+      "default": null
+    },
+    "formData,FFCTab,FFCSecondaryProcessing,FFCSprayCode,FFCSprayCodeCount": {
+      "createPath": "formData.FFCTab.FFCSecondaryProcessing.FFCSprayCode.FFCSprayCodeCount",
+      "valuekey": "FFCSprayCodeCount",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 71,
+      "default": null
+    },
+    "formData,FFCTab,FFCConnector,0,uuid": {
+      "createPath": "formData.FFCTab.FFCConnector.0.uuid",
+      "valuekey": "uuid",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCConnector,0,FFCConnectorLabel": {
+      "createPath": "formData.FFCTab.FFCConnector.0.FFCConnectorLabel",
+      "valuekey": "FFCConnectorLabel",
+      "valueType": null,
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCConnector,0,FFCConnectorType": {
+      "createPath": "formData.FFCTab.FFCConnector.0.FFCConnectorType",
+      "valuekey": "FFCConnectorType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 9,
+      "default": null
+    },
+    "formData,FFCTab,FFCConnector,0,FFCConnectorAssemblyType": {
+      "createPath": "formData.FFCTab.FFCConnector.0.FFCConnectorAssemblyType",
+      "valuekey": "FFCConnectorAssemblyType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 164,
+      "default": null
+    },
+    "formData,FFCTab,FFCConnector,0,FFCConnectorPitch": {
+      "createPath": "formData.FFCTab.FFCConnector.0.FFCConnectorPitch",
+      "valuekey": "FFCConnectorPitch",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 165,
+      "default": null
+    },
+    "formData,FFCTab,FFCConnector,0,FFCConnectorRow": {
+      "createPath": "formData.FFCTab.FFCConnector.0.FFCConnectorRow",
+      "valuekey": "FFCConnectorRow",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 166,
+      "default": null
+    },
+    "formData,FFCTab,FFCConnector,0,FFCConnectorPin": {
+      "createPath": "formData.FFCTab.FFCConnector.0.FFCConnectorPin",
+      "valuekey": "FFCConnectorPin",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 167,
+      "default": null
+    },
+    "formData,FFCTab,FFCConnector,0,FFCConnectorQty": {
+      "createPath": "formData.FFCTab.FFCConnector.0.FFCConnectorQty",
+      "valuekey": "FFCConnectorQty",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 169,
+      "default": null
+    },
+    "formData,FFCTab,FFCConnector,0,FFCConnectorVendor": {
+      "createPath": "formData.FFCTab.FFCConnector.0.FFCConnectorVendor",
+      "valuekey": "FFCConnectorVendor",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 334,
+      "default": null
+    },
+    "formData,FFCTab,FFCConnector,0,FFCConnectorVendorPn": {
+      "createPath": "formData.FFCTab.FFCConnector.0.FFCConnectorVendorPn",
+      "valuekey": "FFCConnectorVendorPn",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 335,
+      "default": null
+    },
+    "formData,FFCTab,FFCConnector,0,FFCConnectorPrice": {
+      "createPath": "formData.FFCTab.FFCConnector.0.FFCConnectorPrice",
+      "valuekey": "FFCConnectorPrice",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 170,
+      "default": null
+    },
+    "formData,FFCTab,FFCConnector,0,id": {
+      "createPath": "formData.FFCTab.FFCConnector.0.id",
+      "valuekey": "id",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCReinforcingPlate,FFCReinforcingPlateLabel1,FFCReinforcingPlateSpec1": {
+      "createPath": "formData.FFCTab.FFCReinforcingPlate.FFCReinforcingPlateLabel1.FFCReinforcingPlateSpec1",
+      "valuekey": "FFCReinforcingPlateSpec1",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 145,
+      "default": null
+    },
+    "formData,FFCTab,FFCReinforcingPlate,FFCReinforcingPlateLabel1,FFCReinforcingPlateLength1": {
+      "createPath": "formData.FFCTab.FFCReinforcingPlate.FFCReinforcingPlateLabel1.FFCReinforcingPlateLength1",
+      "valuekey": "FFCReinforcingPlateLength1",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 146,
+      "default": null
+    },
+    "formData,FFCTab,FFCReinforcingPlate,FFCReinforcingPlateLabel1,FFCReinforcingPlateQty1": {
+      "createPath": "formData.FFCTab.FFCReinforcingPlate.FFCReinforcingPlateLabel1.FFCReinforcingPlateQty1",
+      "valuekey": "FFCReinforcingPlateQty1",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 149,
+      "default": null
+    },
+    "formData,FFCTab,FFCReinforcingPlate,FFCReinforcingPlateLabel2,FFCReinforcingPlateSpec2": {
+      "createPath": "formData.FFCTab.FFCReinforcingPlate.FFCReinforcingPlateLabel2.FFCReinforcingPlateSpec2",
+      "valuekey": "FFCReinforcingPlateSpec2",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 154,
+      "default": null
+    },
+    "formData,FFCTab,FFCReinforcingPlate,FFCReinforcingPlateLabel2,FFCReinforcingPlateLength2": {
+      "createPath": "formData.FFCTab.FFCReinforcingPlate.FFCReinforcingPlateLabel2.FFCReinforcingPlateLength2",
+      "valuekey": "FFCReinforcingPlateLength2",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 155,
+      "default": null
+    },
+    "formData,FFCTab,FFCReinforcingPlate,FFCReinforcingPlateLabel2,FFCReinforcingPlateQty2": {
+      "createPath": "formData.FFCTab.FFCReinforcingPlate.FFCReinforcingPlateLabel2.FFCReinforcingPlateQty2",
+      "valuekey": "FFCReinforcingPlateQty2",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 158,
+      "default": null
+    },
+    "formData,FFCTab,FFCReinforcingPlate,FFCReinforcingPlateLabel2,FFCReinforcingPlatePrice1": {
+      "createPath": "formData.FFCTab.FFCReinforcingPlate.FFCReinforcingPlateLabel2.FFCReinforcingPlatePrice1",
+      "valuekey": "FFCReinforcingPlatePrice1",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": null,
+      "default": 0
+    },
+    "formData,FFCTab,FFCReinforcingPlate,FFCReinforcingPlateLabel2,FFCReinforcingPlatePrice2": {
+      "createPath": "formData.FFCTab.FFCReinforcingPlate.FFCReinforcingPlateLabel2.FFCReinforcingPlatePrice2",
+      "valuekey": "FFCReinforcingPlatePrice2",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": null,
+      "default": 0
+    },
+    "formData,FFCTab,FFCAccessory,0,uuid": {
+      "createPath": "formData.FFCTab.FFCAccessory.0.uuid",
+      "valuekey": "uuid",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,0,FFCAccessoryLabel": {
+      "createPath": "formData.FFCTab.FFCAccessory.0.FFCAccessoryLabel",
+      "valuekey": "FFCAccessoryLabel",
+      "valueType": null,
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,0,FFCAccessoryPart": {
+      "createPath": "formData.FFCTab.FFCAccessory.0.FFCAccessoryPart",
+      "valuekey": "FFCAccessoryPart",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 174,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,0,FFCAccessorySpec": {
+      "createPath": "formData.FFCTab.FFCAccessory.0.FFCAccessorySpec",
+      "valuekey": "FFCAccessorySpec",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 175,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,0,FFCAccessoryMaterialType": {
+      "createPath": "formData.FFCTab.FFCAccessory.0.FFCAccessoryMaterialType",
+      "valuekey": "FFCAccessoryMaterialType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 176,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,0,FFCAccessoryAssemblyType": {
+      "createPath": "formData.FFCTab.FFCAccessory.0.FFCAccessoryAssemblyType",
+      "valuekey": "FFCAccessoryAssemblyType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 177,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,0,FFCAccessoryLength": {
+      "createPath": "formData.FFCTab.FFCAccessory.0.FFCAccessoryLength",
+      "valuekey": "FFCAccessoryLength",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 178,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,0,FFCAccessoryWidth": {
+      "createPath": "formData.FFCTab.FFCAccessory.0.FFCAccessoryWidth",
+      "valuekey": "FFCAccessoryWidth",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 179,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,0,FFCAccessoryQty": {
+      "createPath": "formData.FFCTab.FFCAccessory.0.FFCAccessoryQty",
+      "valuekey": "FFCAccessoryQty",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 180,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,0,FFCAccessoryPrice": {
+      "createPath": "formData.FFCTab.FFCAccessory.0.FFCAccessoryPrice",
+      "valuekey": "FFCAccessoryPrice",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": null,
+      "default": 0
+    },
+    "formData,FFCTab,FFCAccessory,1,uuid": {
+      "createPath": "formData.FFCTab.FFCAccessory.1.uuid",
+      "valuekey": "uuid",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,1,FFCAccessoryLabel": {
+      "createPath": "formData.FFCTab.FFCAccessory.1.FFCAccessoryLabel",
+      "valuekey": "FFCAccessoryLabel",
+      "valueType": null,
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,1,FFCAccessoryPart": {
+      "createPath": "formData.FFCTab.FFCAccessory.1.FFCAccessoryPart",
+      "valuekey": "FFCAccessoryPart",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 188,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,1,FFCAccessorySpec": {
+      "createPath": "formData.FFCTab.FFCAccessory.1.FFCAccessorySpec",
+      "valuekey": "FFCAccessorySpec",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 189,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,1,FFCAccessoryMaterialType": {
+      "createPath": "formData.FFCTab.FFCAccessory.1.FFCAccessoryMaterialType",
+      "valuekey": "FFCAccessoryMaterialType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 190,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,1,FFCAccessoryAssemblyType": {
+      "createPath": "formData.FFCTab.FFCAccessory.1.FFCAccessoryAssemblyType",
+      "valuekey": "FFCAccessoryAssemblyType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 191,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,1,FFCAccessoryLength": {
+      "createPath": "formData.FFCTab.FFCAccessory.1.FFCAccessoryLength",
+      "valuekey": "FFCAccessoryLength",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 191,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,1,FFCAccessoryWidth": {
+      "createPath": "formData.FFCTab.FFCAccessory.1.FFCAccessoryWidth",
+      "valuekey": "FFCAccessoryWidth",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 193,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,1,FFCAccessoryQty": {
+      "createPath": "formData.FFCTab.FFCAccessory.1.FFCAccessoryQty",
+      "valuekey": "FFCAccessoryQty",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 194,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,1,FFCAccessoryPrice": {
+      "createPath": "formData.FFCTab.FFCAccessory.1.FFCAccessoryPrice",
+      "valuekey": "FFCAccessoryPrice",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": null,
+      "default": 0
+    },
+    "formData,FFCTab,FFCAccessory,2,uuid": {
+      "createPath": "formData.FFCTab.FFCAccessory.2.uuid",
+      "valuekey": "uuid",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,2,FFCAccessoryLabel": {
+      "createPath": "formData.FFCTab.FFCAccessory.2.FFCAccessoryLabel",
+      "valuekey": "FFCAccessoryLabel",
+      "valueType": null,
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,2,FFCAccessoryPart": {
+      "createPath": "formData.FFCTab.FFCAccessory.2.FFCAccessoryPart",
+      "valuekey": "FFCAccessoryPart",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 202,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,2,FFCAccessorySpec": {
+      "createPath": "formData.FFCTab.FFCAccessory.2.FFCAccessorySpec",
+      "valuekey": "FFCAccessorySpec",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 203,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,2,FFCAccessoryMaterialType": {
+      "createPath": "formData.FFCTab.FFCAccessory.2.FFCAccessoryMaterialType",
+      "valuekey": "FFCAccessoryMaterialType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 204,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,2,FFCAccessoryAssemblyType": {
+      "createPath": "formData.FFCTab.FFCAccessory.2.FFCAccessoryAssemblyType",
+      "valuekey": "FFCAccessoryAssemblyType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 205,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,2,FFCAccessoryLength": {
+      "createPath": "formData.FFCTab.FFCAccessory.2.FFCAccessoryLength",
+      "valuekey": "FFCAccessoryLength",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 206,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,2,FFCAccessoryWidth": {
+      "createPath": "formData.FFCTab.FFCAccessory.2.FFCAccessoryWidth",
+      "valuekey": "FFCAccessoryWidth",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 207,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,2,FFCAccessoryQty": {
+      "createPath": "formData.FFCTab.FFCAccessory.2.FFCAccessoryQty",
+      "valuekey": "FFCAccessoryQty",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 208,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,2,FFCAccessoryPrice": {
+      "createPath": "formData.FFCTab.FFCAccessory.2.FFCAccessoryPrice",
+      "valuekey": "FFCAccessoryPrice",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": null,
+      "default": 0
+    },
+    "formData,FFCTab,FFCAccessory,3,uuid": {
+      "createPath": "formData.FFCTab.FFCAccessory.3.uuid",
+      "valuekey": "uuid",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,3,FFCAccessoryLabel": {
+      "createPath": "formData.FFCTab.FFCAccessory.3.FFCAccessoryLabel",
+      "valuekey": "FFCAccessoryLabel",
+      "valueType": null,
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,3,FFCAccessoryPart": {
+      "createPath": "formData.FFCTab.FFCAccessory.3.FFCAccessoryPart",
+      "valuekey": "FFCAccessoryPart",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 216,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,3,FFCAccessorySpec": {
+      "createPath": "formData.FFCTab.FFCAccessory.3.FFCAccessorySpec",
+      "valuekey": "FFCAccessorySpec",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 217,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,3,FFCAccessoryMaterialType": {
+      "createPath": "formData.FFCTab.FFCAccessory.3.FFCAccessoryMaterialType",
+      "valuekey": "FFCAccessoryMaterialType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 218,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,3,FFCAccessoryAssemblyType": {
+      "createPath": "formData.FFCTab.FFCAccessory.3.FFCAccessoryAssemblyType",
+      "valuekey": "FFCAccessoryAssemblyType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 219,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,3,FFCAccessoryLength": {
+      "createPath": "formData.FFCTab.FFCAccessory.3.FFCAccessoryLength",
+      "valuekey": "FFCAccessoryLength",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 220,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,3,FFCAccessoryWidth": {
+      "createPath": "formData.FFCTab.FFCAccessory.3.FFCAccessoryWidth",
+      "valuekey": "FFCAccessoryWidth",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 221,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,3,FFCAccessoryQty": {
+      "createPath": "formData.FFCTab.FFCAccessory.3.FFCAccessoryQty",
+      "valuekey": "FFCAccessoryQty",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 222,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,3,FFCAccessoryPrice": {
+      "createPath": "formData.FFCTab.FFCAccessory.3.FFCAccessoryPrice",
+      "valuekey": "FFCAccessoryPrice",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": null,
+      "default": 0
+    },
+    "formData,FFCTab,FFCAccessory,4,uuid": {
+      "createPath": "formData.FFCTab.FFCAccessory.4.uuid",
+      "valuekey": "uuid",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,4,FFCAccessoryLabel": {
+      "createPath": "formData.FFCTab.FFCAccessory.4.FFCAccessoryLabel",
+      "valuekey": "FFCAccessoryLabel",
+      "valueType": null,
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,4,FFCAccessoryPart": {
+      "createPath": "formData.FFCTab.FFCAccessory.4.FFCAccessoryPart",
+      "valuekey": "FFCAccessoryPart",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 230,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,4,FFCAccessorySpec": {
+      "createPath": "formData.FFCTab.FFCAccessory.4.FFCAccessorySpec",
+      "valuekey": "FFCAccessorySpec",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 231,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,4,FFCAccessoryMaterialType": {
+      "createPath": "formData.FFCTab.FFCAccessory.4.FFCAccessoryMaterialType",
+      "valuekey": "FFCAccessoryMaterialType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 232,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,4,FFCAccessoryAssemblyType": {
+      "createPath": "formData.FFCTab.FFCAccessory.4.FFCAccessoryAssemblyType",
+      "valuekey": "FFCAccessoryAssemblyType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 233,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,4,FFCAccessoryLength": {
+      "createPath": "formData.FFCTab.FFCAccessory.4.FFCAccessoryLength",
+      "valuekey": "FFCAccessoryLength",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 234,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,4,FFCAccessoryWidth": {
+      "createPath": "formData.FFCTab.FFCAccessory.4.FFCAccessoryWidth",
+      "valuekey": "FFCAccessoryWidth",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 235,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,4,FFCAccessoryQty": {
+      "createPath": "formData.FFCTab.FFCAccessory.4.FFCAccessoryQty",
+      "valuekey": "FFCAccessoryQty",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 236,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,4,FFCAccessoryPrice": {
+      "createPath": "formData.FFCTab.FFCAccessory.4.FFCAccessoryPrice",
+      "valuekey": "FFCAccessoryPrice",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": null,
+      "default": 0
+    },
+    "formData,FFCTab,FFCAccessory,5,uuid": {
+      "createPath": "formData.FFCTab.FFCAccessory.5.uuid",
+      "valuekey": "uuid",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,5,FFCAccessoryLabel": {
+      "createPath": "formData.FFCTab.FFCAccessory.5.FFCAccessoryLabel",
+      "valuekey": "FFCAccessoryLabel",
+      "valueType": null,
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,5,FFCAccessoryPart": {
+      "createPath": "formData.FFCTab.FFCAccessory.5.FFCAccessoryPart",
+      "valuekey": "FFCAccessoryPart",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 244,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,5,FFCAccessorySpec": {
+      "createPath": "formData.FFCTab.FFCAccessory.5.FFCAccessorySpec",
+      "valuekey": "FFCAccessorySpec",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 245,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,5,FFCAccessoryMaterialType": {
+      "createPath": "formData.FFCTab.FFCAccessory.5.FFCAccessoryMaterialType",
+      "valuekey": "FFCAccessoryMaterialType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 246,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,5,FFCAccessoryAssemblyType": {
+      "createPath": "formData.FFCTab.FFCAccessory.5.FFCAccessoryAssemblyType",
+      "valuekey": "FFCAccessoryAssemblyType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 247,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,5,FFCAccessoryLength": {
+      "createPath": "formData.FFCTab.FFCAccessory.5.FFCAccessoryLength",
+      "valuekey": "FFCAccessoryLength",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 248,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,5,FFCAccessoryWidth": {
+      "createPath": "formData.FFCTab.FFCAccessory.5.FFCAccessoryWidth",
+      "valuekey": "FFCAccessoryWidth",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 249,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,5,FFCAccessoryQty": {
+      "createPath": "formData.FFCTab.FFCAccessory.5.FFCAccessoryQty",
+      "valuekey": "FFCAccessoryQty",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 250,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,5,FFCAccessoryPrice": {
+      "createPath": "formData.FFCTab.FFCAccessory.5.FFCAccessoryPrice",
+      "valuekey": "FFCAccessoryPrice",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": null,
+      "default": 0
+    },
+    "formData,FFCTab,FFCAccessory,6,uuid": {
+      "createPath": "formData.FFCTab.FFCAccessory.6.uuid",
+      "valuekey": "uuid",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,6,FFCAccessoryLabel": {
+      "createPath": "formData.FFCTab.FFCAccessory.6.FFCAccessoryLabel",
+      "valuekey": "FFCAccessoryLabel",
+      "valueType": null,
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,6,FFCAccessoryPart": {
+      "createPath": "formData.FFCTab.FFCAccessory.6.FFCAccessoryPart",
+      "valuekey": "FFCAccessoryPart",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 258,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,6,FFCAccessorySpec": {
+      "createPath": "formData.FFCTab.FFCAccessory.6.FFCAccessorySpec",
+      "valuekey": "FFCAccessorySpec",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 259,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,6,FFCAccessoryMaterialType": {
+      "createPath": "formData.FFCTab.FFCAccessory.6.FFCAccessoryMaterialType",
+      "valuekey": "FFCAccessoryMaterialType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 260,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,6,FFCAccessoryAssemblyType": {
+      "createPath": "formData.FFCTab.FFCAccessory.6.FFCAccessoryAssemblyType",
+      "valuekey": "FFCAccessoryAssemblyType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 261,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,6,FFCAccessoryLength": {
+      "createPath": "formData.FFCTab.FFCAccessory.6.FFCAccessoryLength",
+      "valuekey": "FFCAccessoryLength",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 262,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,6,FFCAccessoryWidth": {
+      "createPath": "formData.FFCTab.FFCAccessory.6.FFCAccessoryWidth",
+      "valuekey": "FFCAccessoryWidth",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 263,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,6,FFCAccessoryQty": {
+      "createPath": "formData.FFCTab.FFCAccessory.6.FFCAccessoryQty",
+      "valuekey": "FFCAccessoryQty",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 264,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,6,FFCAccessoryPrice": {
+      "createPath": "formData.FFCTab.FFCAccessory.6.FFCAccessoryPrice",
+      "valuekey": "FFCAccessoryPrice",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": null,
+      "default": 0
+    },
+    "formData,FFCTab,FFCAccessory,7,uuid": {
+      "createPath": "formData.FFCTab.FFCAccessory.7.uuid",
+      "valuekey": "uuid",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,7,FFCAccessoryLabel": {
+      "createPath": "formData.FFCTab.FFCAccessory.7.FFCAccessoryLabel",
+      "valuekey": "FFCAccessoryLabel",
+      "valueType": null,
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,7,FFCAccessoryPart": {
+      "createPath": "formData.FFCTab.FFCAccessory.7.FFCAccessoryPart",
+      "valuekey": "FFCAccessoryPart",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 272,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,7,FFCAccessorySpec": {
+      "createPath": "formData.FFCTab.FFCAccessory.7.FFCAccessorySpec",
+      "valuekey": "FFCAccessorySpec",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 273,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,7,FFCAccessoryMaterialType": {
+      "createPath": "formData.FFCTab.FFCAccessory.7.FFCAccessoryMaterialType",
+      "valuekey": "FFCAccessoryMaterialType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 274,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,7,FFCAccessoryAssemblyType": {
+      "createPath": "formData.FFCTab.FFCAccessory.7.FFCAccessoryAssemblyType",
+      "valuekey": "FFCAccessoryAssemblyType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 275,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,7,FFCAccessoryLength": {
+      "createPath": "formData.FFCTab.FFCAccessory.7.FFCAccessoryLength",
+      "valuekey": "FFCAccessoryLength",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 276,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,7,FFCAccessoryWidth": {
+      "createPath": "formData.FFCTab.FFCAccessory.7.FFCAccessoryWidth",
+      "valuekey": "FFCAccessoryWidth",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 277,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,7,FFCAccessoryQty": {
+      "createPath": "formData.FFCTab.FFCAccessory.7.FFCAccessoryQty",
+      "valuekey": "FFCAccessoryQty",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 278,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,7,FFCAccessoryPrice": {
+      "createPath": "formData.FFCTab.FFCAccessory.7.FFCAccessoryPrice",
+      "valuekey": "FFCAccessoryPrice",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": null,
+      "default": 0
+    },
+    "formData,FFCTab,FFCAccessory,8,uuid": {
+      "createPath": "formData.FFCTab.FFCAccessory.8.uuid",
+      "valuekey": "uuid",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,8,FFCAccessoryLabel": {
+      "createPath": "formData.FFCTab.FFCAccessory.8.FFCAccessoryLabel",
+      "valuekey": "FFCAccessoryLabel",
+      "valueType": null,
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,8,FFCAccessoryPart": {
+      "createPath": "formData.FFCTab.FFCAccessory.8.FFCAccessoryPart",
+      "valuekey": "FFCAccessoryPart",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 286,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,8,FFCAccessorySpec": {
+      "createPath": "formData.FFCTab.FFCAccessory.8.FFCAccessorySpec",
+      "valuekey": "FFCAccessorySpec",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 287,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,8,FFCAccessoryMaterialType": {
+      "createPath": "formData.FFCTab.FFCAccessory.8.FFCAccessoryMaterialType",
+      "valuekey": "FFCAccessoryMaterialType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 288,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,8,FFCAccessoryAssemblyType": {
+      "createPath": "formData.FFCTab.FFCAccessory.8.FFCAccessoryAssemblyType",
+      "valuekey": "FFCAccessoryAssemblyType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 289,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,8,FFCAccessoryLength": {
+      "createPath": "formData.FFCTab.FFCAccessory.8.FFCAccessoryLength",
+      "valuekey": "FFCAccessoryLength",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 290,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,8,FFCAccessoryWidth": {
+      "createPath": "formData.FFCTab.FFCAccessory.8.FFCAccessoryWidth",
+      "valuekey": "FFCAccessoryWidth",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 291,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,8,FFCAccessoryQty": {
+      "createPath": "formData.FFCTab.FFCAccessory.8.FFCAccessoryQty",
+      "valuekey": "FFCAccessoryQty",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 292,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,8,FFCAccessoryPrice": {
+      "createPath": "formData.FFCTab.FFCAccessory.8.FFCAccessoryPrice",
+      "valuekey": "FFCAccessoryPrice",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": null,
+      "default": 0
+    },
+    "formData,FFCTab,FFCAccessory,9,uuid": {
+      "createPath": "formData.FFCTab.FFCAccessory.9.uuid",
+      "valuekey": "uuid",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,9,FFCAccessoryLabel": {
+      "createPath": "formData.FFCTab.FFCAccessory.9.FFCAccessoryLabel",
+      "valuekey": "FFCAccessoryLabel",
+      "valueType": null,
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,9,FFCAccessoryPart": {
+      "createPath": "formData.FFCTab.FFCAccessory.9.FFCAccessoryPart",
+      "valuekey": "FFCAccessoryPart",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 300,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,9,FFCAccessorySpec": {
+      "createPath": "formData.FFCTab.FFCAccessory.9.FFCAccessorySpec",
+      "valuekey": "FFCAccessorySpec",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 301,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,9,FFCAccessoryMaterialType": {
+      "createPath": "formData.FFCTab.FFCAccessory.9.FFCAccessoryMaterialType",
+      "valuekey": "FFCAccessoryMaterialType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 302,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,9,FFCAccessoryAssemblyType": {
+      "createPath": "formData.FFCTab.FFCAccessory.9.FFCAccessoryAssemblyType",
+      "valuekey": "FFCAccessoryAssemblyType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 303,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,9,FFCAccessoryLength": {
+      "createPath": "formData.FFCTab.FFCAccessory.9.FFCAccessoryLength",
+      "valuekey": "FFCAccessoryLength",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 304,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,9,FFCAccessoryWidth": {
+      "createPath": "formData.FFCTab.FFCAccessory.9.FFCAccessoryWidth",
+      "valuekey": "FFCAccessoryWidth",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 305,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,9,FFCAccessoryQty": {
+      "createPath": "formData.FFCTab.FFCAccessory.9.FFCAccessoryQty",
+      "valuekey": "FFCAccessoryQty",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 306,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,9,FFCAccessoryPrice": {
+      "createPath": "formData.FFCTab.FFCAccessory.9.FFCAccessoryPrice",
+      "valuekey": "FFCAccessoryPrice",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": null,
+      "default": 0
+    },
+    "formData,FFCTab,FFCAccessory,10,uuid": {
+      "createPath": "formData.FFCTab.FFCAccessory.10.uuid",
+      "valuekey": "uuid",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,10,FFCAccessoryLabel": {
+      "createPath": "formData.FFCTab.FFCAccessory.10.FFCAccessoryLabel",
+      "valuekey": "FFCAccessoryLabel",
+      "valueType": null,
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,10,FFCAccessoryPart": {
+      "createPath": "formData.FFCTab.FFCAccessory.10.FFCAccessoryPart",
+      "valuekey": "FFCAccessoryPart",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 314,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,10,FFCAccessorySpec": {
+      "createPath": "formData.FFCTab.FFCAccessory.10.FFCAccessorySpec",
+      "valuekey": "FFCAccessorySpec",
+      "valueType": null,
+      "excelValueLongitudinalCoordinates": 315,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,10,FFCAccessoryMaterialType": {
+      "createPath": "formData.FFCTab.FFCAccessory.10.FFCAccessoryMaterialType",
+      "valuekey": "FFCAccessoryMaterialType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 316,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,10,FFCAccessoryAssemblyType": {
+      "createPath": "formData.FFCTab.FFCAccessory.10.FFCAccessoryAssemblyType",
+      "valuekey": "FFCAccessoryAssemblyType",
+      "valueType": "string",
+      "excelValueLongitudinalCoordinates": 317,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,10,FFCAccessoryLength": {
+      "createPath": "formData.FFCTab.FFCAccessory.10.FFCAccessoryLength",
+      "valuekey": "FFCAccessoryLength",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 318,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,10,FFCAccessoryWidth": {
+      "createPath": "formData.FFCTab.FFCAccessory.10.FFCAccessoryWidth",
+      "valuekey": "FFCAccessoryWidth",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 319,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,10,FFCAccessoryQty": {
+      "createPath": "formData.FFCTab.FFCAccessory.10.FFCAccessoryQty",
+      "valuekey": "FFCAccessoryQty",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 320,
+      "default": null
+    },
+    "formData,FFCTab,FFCAccessory,10,FFCAccessoryPrice": {
+      "createPath": "formData.FFCTab.FFCAccessory.10.FFCAccessoryPrice",
+      "valuekey": "FFCAccessoryPrice",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": null,
+      "default": 0
+    },
+    "formData,FFCTab,FFCRemark,FFCRemarks": {
+      "createPath": "formData.FFCTab.FFCRemark.FFCRemarks",
+      "valuekey": "FFCRemarks",
+      "valueType": null,
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,ceParametersTab,FFCSecondaryProcessingTitle": {
+      "createPath": "formData.ceParametersTab.FFCSecondaryProcessingTitle",
+      "valuekey": "FFCSecondaryProcessingTitle",
+      "valueType": null,
+      "excelValueLongitudinalCoordinates": null,
+      "default": null
+    },
+    "formData,ceParametersTab,FFCMaterialLabel,FFCCopperWireLossRate": {
+      "createPath": "formData.ceParametersTab.FFCMaterialLabel.FFCCopperWireLossRate",
+      "valuekey": "FFCCopperWireLossRate",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 18,
+      "default": null
+    },
+    "formData,ceParametersTab,FFCMaterialLabel,FFCCoatingLossRate": {
+      "createPath": "formData.ceParametersTab.FFCMaterialLabel.FFCCoatingLossRate",
+      "valuekey": "FFCCoatingLossRate",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 27,
+      "default": null
+    },
+    "formData,ceParametersTab,FFCSecondaryProcessingLabel,FFCPastingLossRate": {
+      "createPath": "formData.ceParametersTab.FFCSecondaryProcessingLabel.FFCPastingLossRate",
+      "valuekey": "FFCPastingLossRate",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 38,
+      "default": 0
+    },
+    "formData,ceParametersTab,FFCSecondaryProcessingLabel,FFCStopLineLossRate": {
+      "createPath": "formData.ceParametersTab.FFCSecondaryProcessingLabel.FFCStopLineLossRate",
+      "valuekey": "FFCStopLineLossRate",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 44,
+      "default": 0
+    },
+    "formData,ceParametersTab,FFCSecondaryProcessingLabel,FFCPrittingLossRate": {
+      "createPath": "formData.ceParametersTab.FFCSecondaryProcessingLabel.FFCPrittingLossRate",
+      "valuekey": "FFCPrittingLossRate",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 49,
+      "default": 0
+    },
+    "formData,ceParametersTab,FFCSecondaryProcessingLabel,FFCGiltLossRate": {
+      "createPath": "formData.ceParametersTab.FFCSecondaryProcessingLabel.FFCGiltLossRate",
+      "valuekey": "FFCGiltLossRate",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 58,
+      "default": 0
+    },
+    "formData,ceParametersTab,FFCSecondaryProcessingLabel,FFCFlushLossRate": {
+      "createPath": "formData.ceParametersTab.FFCSecondaryProcessingLabel.FFCFlushLossRate",
+      "valuekey": "FFCFlushLossRate",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 63,
+      "default": 0
+    },
+    "formData,ceParametersTab,FFCSecondaryProcessingLabel,FFCBendLossRate": {
+      "createPath": "formData.ceParametersTab.FFCSecondaryProcessingLabel.FFCBendLossRate",
+      "valuekey": "FFCBendLossRate",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 68,
+      "default": 0
+    },
+    "formData,ceParametersTab,FFCSecondaryProcessingLabel,FFCSprayCodeLossRate": {
+      "createPath": "formData.ceParametersTab.FFCSecondaryProcessingLabel.FFCSprayCodeLossRate",
+      "valuekey": "FFCSprayCodeLossRate",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 73,
+      "default": 0
+    },
+    "formData,ceParametersTab,FFCSecondaryProcessingLabel,FFCAssembleLossRate": {
+      "createPath": "formData.ceParametersTab.FFCSecondaryProcessingLabel.FFCAssembleLossRate",
+      "valuekey": "FFCAssembleLossRate",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 78,
+      "default": 0
+    },
+    "formData,ceParametersTab,FFCAssembleLabel,FFCConnectorLossRate": {
+      "createPath": "formData.ceParametersTab.FFCAssembleLabel.FFCConnectorLossRate",
+      "valuekey": "FFCConnectorLossRate",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 171,
+      "default": null
+    },
+    "formData,ceParametersTab,FFCAssembleLabel,FFCReinforcementBoardLossRate": {
+      "createPath": "formData.ceParametersTab.FFCAssembleLabel.FFCReinforcementBoardLossRate",
+      "valuekey": "FFCReinforcementBoardLossRate",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 151,
+      "default": null
+    },
+    "formData,ceParametersTab,FFCAccessoryLossLabel,FFCTagLossRate": {
+      "createPath": "formData.ceParametersTab.FFCAccessoryLossLabel.FFCTagLossRate",
+      "valuekey": "FFCTagLossRate",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 182,
+      "default": null
+    },
+    "formData,ceParametersTab,FFCAccessoryLossLabel,FFCDoubleSidedTapeLossRate": {
+      "createPath": "formData.ceParametersTab.FFCAccessoryLossLabel.FFCDoubleSidedTapeLossRate",
+      "valuekey": "FFCDoubleSidedTapeLossRate",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 196,
+      "default": null
+    },
+    "formData,ceParametersTab,FFCAccessoryLossLabel,FFCAcetateClothLossRate": {
+      "createPath": "formData.ceParametersTab.FFCAccessoryLossLabel.FFCAcetateClothLossRate",
+      "valuekey": "FFCAcetateClothLossRate",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 210,
+      "default": null
+    },
+    "formData,ceParametersTab,FFCAccessoryLossLabel,FFCAluminumMylarCompoundLossRate": {
+      "createPath": "formData.ceParametersTab.FFCAccessoryLossLabel.FFCAluminumMylarCompoundLossRate",
+      "valuekey": "FFCAluminumMylarCompoundLossRate",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 224,
+      "default": null
+    },
+    "formData,ceParametersTab,FFCAccessoryLossLabel,FFCConductiveClothLossRate": {
+      "createPath": "formData.ceParametersTab.FFCAccessoryLossLabel.FFCConductiveClothLossRate",
+      "valuekey": "FFCConductiveClothLossRate",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 238,
+      "default": null
+    },
+    "formData,ceParametersTab,FFCAccessoryLossLabel,FFCOneSideConductorAluminumFoilLossRate": {
+      "createPath": "formData.ceParametersTab.FFCAccessoryLossLabel.FFCOneSideConductorAluminumFoilLossRate",
+      "valuekey": "FFCOneSideConductorAluminumFoilLossRate",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 266,
+      "default": null
+    },
+    "formData,ceParametersTab,FFCAccessoryLossLabel,FFCDoubleSideConductorAluminumFoilLossRate": {
+      "createPath": "formData.ceParametersTab.FFCAccessoryLossLabel.FFCDoubleSideConductorAluminumFoilLossRate",
+      "valuekey": "FFCDoubleSideConductorAluminumFoilLossRate",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 252,
+      "default": null
+    },
+    "formData,ceParametersTab,FFCAccessoryLossLabel,FFCMylarLossRate": {
+      "createPath": "formData.ceParametersTab.FFCAccessoryLossLabel.FFCMylarLossRate",
+      "valuekey": "FFCMylarLossRate",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 280,
+      "default": null
+    },
+    "formData,ceParametersTab,FFCAccessoryLossLabel,FFCReleasePaperTypeLossRate": {
+      "createPath": "formData.ceParametersTab.FFCAccessoryLossLabel.FFCReleasePaperTypeLossRate",
+      "valuekey": "FFCReleasePaperTypeLossRate",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 294,
+      "default": null
+    },
+    "formData,ceParametersTab,FFCAccessoryLossLabel,FFCNoiseAbsorberLossRate": {
+      "createPath": "formData.ceParametersTab.FFCAccessoryLossLabel.FFCNoiseAbsorberLossRate",
+      "valuekey": "FFCNoiseAbsorberLossRate",
+      "valueType": "number",
+      "excelValueLongitudinalCoordinates": 308,
+      "default": null
+    }
+  },
+  "verifyInfo": {
+    "0": {
+      "label": "flat_paste_assembly_seconds_01",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "0",
+      "valueType": "string",
+      "comparisonValuePath": "prices.cableFfcAccessory-26cedb0c-25a4-4ad3-b7f3-8d1e965c384c.assayTimeMapped.values.0.label"
+    },
+    "1": {
+      "label": "flat_paste_assembly_seconds_02",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "1",
+      "valueType": "string",
+      "comparisonValuePath": "prices.cableFfcAccessory-26cedb0c-25a4-4ad3-b7f3-8d1e965c384c.assayTimeMapped.values.1.label"
+    },
+    "2": {
+      "label": "flat_paste_assembly_seconds_03",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "2",
+      "valueType": "string",
+      "comparisonValuePath": "prices.cableFfcAccessory-26cedb0c-25a4-4ad3-b7f3-8d1e965c384c.assayTimeMapped.values.2.label"
+    },
+    "3": {
+      "label": "flat_paste_assembly_seconds_04",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "3",
+      "valueType": "string",
+      "comparisonValuePath": "prices.cableFfcAccessory-26cedb0c-25a4-4ad3-b7f3-8d1e965c384c.assayTimeMapped.values.3.label"
+    },
+    "4": {
+      "label": "flat_paste_assembly_seconds_05",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "4",
+      "valueType": "string",
+      "comparisonValuePath": "prices.cableFfcAccessory-26cedb0c-25a4-4ad3-b7f3-8d1e965c384c.assayTimeMapped.values.4.label"
+    },
+    "5": {
+      "label": "flat_paste_assembly_seconds_06",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "5",
+      "valueType": "string",
+      "comparisonValuePath": "prices.cableFfcAccessory-26cedb0c-25a4-4ad3-b7f3-8d1e965c384c.assayTimeMapped.values.5.label"
+    },
+    "6": {
+      "label": "flat_paste_assembly_seconds_07",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "6",
+      "valueType": "string",
+      "comparisonValuePath": "prices.cableFfcAccessory-26cedb0c-25a4-4ad3-b7f3-8d1e965c384c.assayTimeMapped.values.6.label"
+    },
+    "7": {
+      "label": "flat_paste_assembly_seconds_08",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "7",
+      "valueType": "string",
+      "comparisonValuePath": "prices.cableFfcAccessory-26cedb0c-25a4-4ad3-b7f3-8d1e965c384c.assayTimeMapped.values.7.label"
+    },
+    "8": {
+      "label": "flat_paste_assembly_seconds_09",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "8",
+      "valueType": "string",
+      "comparisonValuePath": "prices.cableFfcAccessory-26cedb0c-25a4-4ad3-b7f3-8d1e965c384c.assayTimeMapped.values.8.label"
+    },
+    "9": {
+      "label": "flat_paste_assembly_seconds_10",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "9",
+      "valueType": "string",
+      "comparisonValuePath": "prices.cableFfcAccessory-26cedb0c-25a4-4ad3-b7f3-8d1e965c384c.assayTimeMapped.values.9.label"
+    },
+    "10": {
+      "label": "flat_paste_assembly_seconds_11",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "10",
+      "valueType": "string",
+      "comparisonValuePath": "prices.cableFfcAccessory-26cedb0c-25a4-4ad3-b7f3-8d1e965c384c.assayTimeMapped.values.10.label"
+    },
+    "11": {
+      "label": "round_cover_assembly_seconds_l_01",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "11",
+      "valueType": "string",
+      "comparisonValuePath": "prices.cableFfcAccessory-26cedb0c-25a4-4ad3-b7f3-8d1e965c384c.assayTimeMapped.values.11.label"
+    },
+    "12": {
+      "label": "round_cover_assembly_seconds_l_02",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "12",
+      "valueType": "string",
+      "comparisonValuePath": "prices.cableFfcAccessory-26cedb0c-25a4-4ad3-b7f3-8d1e965c384c.assayTimeMapped.values.12.label"
+    },
+    "13": {
+      "label": "round_cover_assembly_seconds_l_03",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "13",
+      "valueType": "string",
+      "comparisonValuePath": "prices.cableFfcAccessory-26cedb0c-25a4-4ad3-b7f3-8d1e965c384c.assayTimeMapped.values.13.label"
+    },
+    "14": {
+      "label": "round_cover_assembly_seconds_l_04",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "14",
+      "valueType": "string",
+      "comparisonValuePath": "prices.cableFfcAccessory-26cedb0c-25a4-4ad3-b7f3-8d1e965c384c.assayTimeMapped.values.14.label"
+    },
+    "15": {
+      "label": "round_cover_assembly_seconds_l_05",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "15",
+      "valueType": "string",
+      "comparisonValuePath": "prices.cableFfcAccessory-26cedb0c-25a4-4ad3-b7f3-8d1e965c384c.assayTimeMapped.values.15.label"
+    },
+    "16": {
+      "label": "round_cover_assembly_seconds_l_06",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "16",
+      "valueType": "string",
+      "comparisonValuePath": "prices.cableFfcAccessory-26cedb0c-25a4-4ad3-b7f3-8d1e965c384c.assayTimeMapped.values.16.label"
+    },
+    "17": {
+      "label": "round_cover_assembly_seconds_l_07",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "17",
+      "valueType": "string",
+      "comparisonValuePath": "prices.cableFfcAccessory-26cedb0c-25a4-4ad3-b7f3-8d1e965c384c.assayTimeMapped.values.17.label"
+    },
+    "18": {
+      "label": "round_cover_assembly_seconds_l_08",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "18",
+      "valueType": "string",
+      "comparisonValuePath": "prices.cableFfcAccessory-26cedb0c-25a4-4ad3-b7f3-8d1e965c384c.assayTimeMapped.values.18.label"
+    },
+    "19": {
+      "label": "round_cover_assembly_seconds_l_09",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "19",
+      "valueType": "string",
+      "comparisonValuePath": "prices.cableFfcAccessory-26cedb0c-25a4-4ad3-b7f3-8d1e965c384c.assayTimeMapped.values.19.label"
+    },
+    "20": {
+      "label": "round_cover_assembly_seconds_l_10",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "20",
+      "valueType": "string",
+      "comparisonValuePath": "prices.cableFfcAccessory-26cedb0c-25a4-4ad3-b7f3-8d1e965c384c.assayTimeMapped.values.20.label"
+    },
+    "21": {
+      "label": "round_cover_assembly_seconds_l_11",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "21",
+      "valueType": "string",
+      "comparisonValuePath": "prices.cableFfcAccessory-26cedb0c-25a4-4ad3-b7f3-8d1e965c384c.assayTimeMapped.values.21.label"
+    },
+    "22": {
+      "label": "round_cover_assembly_seconds_w_01",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "22",
+      "valueType": "string",
+      "comparisonValuePath": "prices.cableFfcAccessory-26cedb0c-25a4-4ad3-b7f3-8d1e965c384c.assayTimeMapped.values.22.label"
+    },
+    "totalPrices": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "totalPrices",
+      "valueType": "totalPrices",
+      "comparisonValuePath": "totalPrices"
+    },
+    "parentGroupId": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "parentGroupId",
+      "valueType": "parentGroupId",
+      "comparisonValuePath": "forDebug.summary.cableFFC.parentGroupId"
+    },
+    "FFCAccessoryPart": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCAccessoryPart",
+      "valueType": "FFCAccessoryPart",
+      "comparisonValuePath": "forDebug.summary.cableFfcAccessory-0330d82e-9d74-47f6-b9de-6ba3d86fe749.FFCAccessoryPart"
+    },
+    "FFCAccessoryLength": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCAccessoryLength",
+      "valueType": "FFCAccessoryLength",
+      "comparisonValuePath": "forDebug.summary.cableFFC.accessoryGroupsTotal.10.prevObject.FFCAccessoryLength"
+    },
+    "FFCAccessoryWidth": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCAccessoryWidth",
+      "valueType": "FFCAccessoryWidth",
+      "comparisonValuePath": "forDebug.summary.cableFFC.accessoryGroupsTotal.10.prevObject.FFCAccessoryWidth"
+    },
+    "FFCAccessoryQty": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCAccessoryQty",
+      "valueType": "FFCAccessoryQty",
+      "comparisonValuePath": "forDebug.summary.cableFFC.accessoryGroupsTotal.10.prevObject.FFCAccessoryQty"
+    },
+    "FFCAccessoryPrice": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCAccessoryPrice",
+      "valueType": "FFCAccessoryPrice",
+      "comparisonValuePath": "forDebug.summary.cableFfcAccessory-0330d82e-9d74-47f6-b9de-6ba3d86fe749.FFCAccessoryPrice"
+    },
+    "FFCAccessoryAssemblyType": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCAccessoryAssemblyType",
+      "valueType": "FFCAccessoryAssemblyType",
+      "comparisonValuePath": "forDebug.summary.cableFfcAccessory-0330d82e-9d74-47f6-b9de-6ba3d86fe749.FFCAccessoryAssemblyType"
+    },
+    "FFCAccessoryMaterialType": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCAccessoryMaterialType",
+      "valueType": "FFCAccessoryMaterialType",
+      "comparisonValuePath": "forDebug.summary.cableFFC.accessoryGroupsTotal.10.prevObject.FFCAccessoryMaterialType"
+    },
+    "FFCNoiseAbsorberLossRate": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCNoiseAbsorberLossRate",
+      "valueType": "FFCNoiseAbsorberLossRate",
+      "comparisonValuePath": "forDebug.summary.cableFfcAccessory-0330d82e-9d74-47f6-b9de-6ba3d86fe749.FFCNoiseAbsorberLossRate"
+    },
+    "accessoryProfit": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "accessoryProfit",
+      "valueType": "accessoryProfit",
+      "comparisonValuePath": "forDebug.summary.cableFFC.accessoryGroupsTotal.10.prevObject.accessoryProfit"
+    },
+    "id": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "id",
+      "valueType": "id",
+      "comparisonValuePath": "forDebug.summary.cableFFC.assayTimeMapped.values.22.id"
+    },
+    "FFCAccessoryAssemblySecondsRuleType": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCAccessoryAssemblySecondsRuleType",
+      "valueType": "FFCAccessoryAssemblySecondsRuleType",
+      "comparisonValuePath": "forDebug.summary.cableFFC.assayTimeMapped.values.22.FFCAccessoryAssemblySecondsRuleType"
+    },
+    "FFCAccessoryAssemblySecondsRuleStart": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCAccessoryAssemblySecondsRuleStart",
+      "valueType": "FFCAccessoryAssemblySecondsRuleStart",
+      "comparisonValuePath": "forDebug.summary.cableFFC.assayTimeMapped.values.22.FFCAccessoryAssemblySecondsRuleStart"
+    },
+    "FFCAccessoryAssemblySecondsRuleEnd": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCAccessoryAssemblySecondsRuleEnd",
+      "valueType": "FFCAccessoryAssemblySecondsRuleEnd",
+      "comparisonValuePath": "forDebug.summary.cableFFC.assayTimeMapped.values.22.FFCAccessoryAssemblySecondsRuleEnd"
+    },
+    "FFCAccessoryAssemblySeconds": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCAccessoryAssemblySeconds",
+      "valueType": "FFCAccessoryAssemblySeconds",
+      "comparisonValuePath": "forDebug.summary.cableFFC.assayTimeMapped.values.22.FFCAccessoryAssemblySeconds"
+    },
+    "product_type_id": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "product_type_id",
+      "valueType": "product_type_id",
+      "comparisonValuePath": "forDebug.summary.cableFFC.goldPlatingParams.product_type_id"
+    },
+    "lossRate": {
+      "label": "Loss Rate",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "lossRate",
+      "valueType": "lossRate",
+      "comparisonValuePath": "forDebug.summary.cableFfcAccessory-0330d82e-9d74-47f6-b9de-6ba3d86fe749.lossRate"
+    },
+    "accessoryCostConst1": {
+      "label": "輔料費用1",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "accessoryCostConst1",
+      "valueType": "accessoryCostConst1",
+      "comparisonValuePath": "forDebug.summary.cableFFC.accessoryGroupsTotal.10.accessoryCostConst1"
+    },
+    "accessoryCostConst2": {
+      "label": "輔料費用2",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "accessoryCostConst2",
+      "valueType": "accessoryCostConst2",
+      "comparisonValuePath": "forDebug.summary.cableFFC.accessoryGroupsTotal.10.accessoryCostConst2"
+    },
+    "accessoryCostConst3": {
+      "label": "輔料費用3",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "accessoryCostConst3",
+      "valueType": "accessoryCostConst3",
+      "comparisonValuePath": "forDebug.summary.cableFFC.accessoryGroupsTotal.10.accessoryCostConst3"
+    },
+    "total": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "total",
+      "valueType": "total",
+      "comparisonValuePath": "forDebug.summary.cableFFC.connectorGroupValues.0.total"
+    },
+    "assyTime": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "assyTime",
+      "valueType": "assyTime",
+      "comparisonValuePath": "forDebug.summary.cableFfcConnector-9c68924c-b766-4975-aa04-66f187f0c0fb.assyTime"
+    },
+    "FFCConnectorPin": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCConnectorPin",
+      "valueType": "FFCConnectorPin",
+      "comparisonValuePath": "forDebug.summary.cableFfcConnector-9c68924c-b766-4975-aa04-66f187f0c0fb.FFCConnectorPin"
+    },
+    "FFCConnectorQty": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCConnectorQty",
+      "valueType": "FFCConnectorQty",
+      "comparisonValuePath": "forDebug.summary.cableFfcConnector-9c68924c-b766-4975-aa04-66f187f0c0fb.FFCConnectorQty"
+    },
+    "FFCConnectorLossRate": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCConnectorLossRate",
+      "valueType": "FFCConnectorLossRate",
+      "comparisonValuePath": "forDebug.summary.cableFfcConnector-9c68924c-b766-4975-aa04-66f187f0c0fb.FFCConnectorLossRate"
+    },
+    "stickingAssyTime": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "stickingAssyTime",
+      "valueType": "stickingAssyTime",
+      "comparisonValuePath": "forDebug.summary.cableFFC.stickingAssyTime"
+    },
+    "stickingProfit": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "stickingProfit",
+      "valueType": "stickingProfit",
+      "comparisonValuePath": "forDebug.summary.cableFFC.stickingProfit"
+    },
+    "A_1_copperWireCost": {
+      "label": "銅線費用",
+      "excelValueLongitudinalCoordinates": "20",
+      "valuekey": "A_1_copperWireCost",
+      "valueType": "A_1_copperWireCost",
+      "comparisonValuePath": "forDebug.summary.cableFFC.A_1_copperWireCost"
+    },
+    "connectorPinTotal": {
+      "label": "Connector Pin 加總",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "connectorPinTotal",
+      "valueType": "connectorPinTotal",
+      "comparisonValuePath": "forDebug.summary.cableFFC.connectorPinTotal"
+    },
+    "A_2_coatingCost": {
+      "label": "皮膜費用",
+      "excelValueLongitudinalCoordinates": "29",
+      "valuekey": "A_2_coatingCost",
+      "valueType": "A_2_coatingCost",
+      "comparisonValuePath": "forDebug.summary.cableFFC.A_2_coatingCost"
+    },
+    "A_materialCost": {
+      "label": "材料費",
+      "excelValueLongitudinalCoordinates": "328",
+      "valuekey": "A_materialCost",
+      "valueType": "A_materialCost",
+      "comparisonValuePath": "forDebug.summary.cableFFC.A_materialCost"
+    },
+    "B_1_pastingCost": {
+      "label": "貼合分條及導通裁切cost",
+      "excelValueLongitudinalCoordinates": "40",
+      "valuekey": "B_1_pastingCost",
+      "valueType": "B_1_pastingCost",
+      "comparisonValuePath": "forDebug.summary.cableFFC.B_1_pastingCost"
+    },
+    "B_2_stopLineCost": {
+      "label": "停止線費用",
+      "excelValueLongitudinalCoordinates": "46",
+      "valuekey": "B_2_stopLineCost",
+      "valueType": "B_2_stopLineCost",
+      "comparisonValuePath": "forDebug.summary.cableFFC.B_2_stopLineCost"
+    },
+    "B_3_prittingCost": {
+      "label": "印刷費用",
+      "excelValueLongitudinalCoordinates": "51",
+      "valuekey": "B_3_prittingCost",
+      "valueType": "B_3_prittingCost",
+      "comparisonValuePath": "forDebug.summary.cableFFC.B_3_prittingCost"
+    },
+    "goldPlatingPrice": {
+      "label": "金手指 單價",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "goldPlatingPrice",
+      "valueType": "goldPlatingPrice",
+      "comparisonValuePath": "forDebug.summary.cableFFC.goldPlatingPrice"
+    },
+    "B_4_goldPlatingCost": {
+      "label": "金手指 cost",
+      "excelValueLongitudinalCoordinates": "60",
+      "valuekey": "B_4_goldPlatingCost",
+      "valueType": "B_4_goldPlatingCost",
+      "comparisonValuePath": "forDebug.summary.cableFFC.B_4_goldPlatingCost"
+    },
+    "B_5_flushCost": {
+      "label": "衝型費用",
+      "excelValueLongitudinalCoordinates": "65",
+      "valuekey": "B_5_flushCost",
+      "valueType": "B_5_flushCost",
+      "comparisonValuePath": "forDebug.summary.cableFFC.B_5_flushCost"
+    },
+    "B_6_bendCost": {
+      "label": "折彎費用",
+      "excelValueLongitudinalCoordinates": "70",
+      "valuekey": "B_6_bendCost",
+      "valueType": "B_6_bendCost",
+      "comparisonValuePath": "forDebug.summary.cableFFC.B_6_bendCost"
+    },
+    "B_7_sprayCodeCost": {
+      "label": "噴馬費用",
+      "excelValueLongitudinalCoordinates": "75",
+      "valuekey": "B_7_sprayCodeCost",
+      "valueType": "B_7_sprayCodeCost",
+      "comparisonValuePath": "forDebug.summary.cableFFC.B_7_sprayCodeCost"
+    },
+    "connectorAssyTimeTotal": {
+      "label": "Connector AssyTime 加總",
+      "excelValueLongitudinalCoordinates": "168",
+      "valuekey": "connectorAssyTimeTotal",
+      "valueType": "connectorAssyTimeTotal",
+      "comparisonValuePath": "forDebug.summary.cableFFC.connectorAssyTimeTotal"
+    },
+    "accessoryAssyTimeTotal": {
+      "label": "C-3.輔料 費用加總",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "accessoryAssyTimeTotal",
+      "valueType": "accessoryAssyTimeTotal",
+      "comparisonValuePath": "forDebug.summary.cableFFC.accessoryAssyTimeTotal"
+    },
+    "assyTimeTotal": {
+      "label": "AssyTime 加總",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "assyTimeTotal",
+      "valueType": "assyTimeTotal",
+      "comparisonValuePath": "forDebug.summary.cableFFC.assyTimeTotal"
+    },
+    "assemblyPrice": {
+      "label": "組裝費率單價",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "assemblyPrice",
+      "valueType": "assemblyPrice",
+      "comparisonValuePath": "forDebug.summary.cableFFC.assemblyPrice"
+    },
+    "B_8_assemblyCost": {
+      "label": "組裝費用",
+      "excelValueLongitudinalCoordinates": "80",
+      "valuekey": "B_8_assemblyCost",
+      "valueType": "B_8_assemblyCost",
+      "comparisonValuePath": "forDebug.summary.cableFFC.B_8_assemblyCost"
+    },
+    "B_secondaryProcessingCost": {
+      "label": "二次加工費",
+      "excelValueLongitudinalCoordinates": "329",
+      "valuekey": "B_secondaryProcessingCost",
+      "valueType": "B_secondaryProcessingCost",
+      "comparisonValuePath": "forDebug.summary.cableFFC.B_secondaryProcessingCost"
+    },
+    "C_1_connectorCost": {
+      "label": "connector費用",
+      "excelValueLongitudinalCoordinates": "173",
+      "valuekey": "C_1_connectorCost",
+      "valueType": "C_1_connectorCost",
+      "comparisonValuePath": "forDebug.summary.cableFFC.C_1_connectorCost"
+    },
+    "reinforcingPlateCost1": {
+      "label": "補強板-1 費用",
+      "excelValueLongitudinalCoordinates": "153",
+      "valuekey": "reinforcingPlateCost1",
+      "valueType": "reinforcingPlateCost1",
+      "comparisonValuePath": "forDebug.summary.cableFFC.reinforcingPlateCost1"
+    },
+    "reinforcingPlateCost2": {
+      "label": "補強板-2 費用",
+      "excelValueLongitudinalCoordinates": "162",
+      "valuekey": "reinforcingPlateCost2",
+      "valueType": "reinforcingPlateCost2",
+      "comparisonValuePath": "forDebug.summary.cableFFC.reinforcingPlateCost2"
+    },
+    "C_2_reinforcingPlateCost": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "C_2_reinforcingPlateCost",
+      "valueType": "C_2_reinforcingPlateCost",
+      "comparisonValuePath": "forDebug.summary.cableFFC.C_2_reinforcingPlateCost"
+    },
+    "index": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "index",
+      "valueType": "index",
+      "comparisonValuePath": "forDebug.summary.cableFFC.accessoryGroupsTotal.10.index"
+    },
+    "type": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "type",
+      "valueType": "type",
+      "comparisonValuePath": "forDebug.summary.cableFFC.accessoryGroupsTotal.10.type"
+    },
+    "prevObject": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "prevObject",
+      "valueType": "prevObject",
+      "comparisonValuePath": "forDebug.summary.cableFFC.accessoryGroupsTotal.0.prevObject"
+    },
+    "hasSameSize": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "hasSameSize",
+      "valueType": "hasSameSize",
+      "comparisonValuePath": "forDebug.summary.cableFFC.accessoryGroupsTotal.10.hasSameSize"
+    },
+    "l": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "l",
+      "valueType": "l",
+      "comparisonValuePath": "forDebug.summary.cableFFC.accessoryGroupsTotal.10.l"
+    },
+    "w": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "w",
+      "valueType": "w",
+      "comparisonValuePath": "forDebug.summary.cableFFC.accessoryGroupsTotal.10.w"
+    },
+    "stampingConst": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "stampingConst",
+      "valueType": "stampingConst",
+      "comparisonValuePath": "forDebug.summary.cableFFC.accessoryGroupsTotal.10.stampingConst"
+    },
+    "stickingConst": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "stickingConst",
+      "valueType": "stickingConst",
+      "comparisonValuePath": "forDebug.summary.cableFFC.accessoryGroupsTotal.10.stickingConst"
+    },
+    "sameSizeConst": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "sameSizeConst",
+      "valueType": "sameSizeConst",
+      "comparisonValuePath": "forDebug.summary.cableFFC.accessoryGroupsTotal.10.sameSizeConst"
+    },
+    "C_3_accessoryCost": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "C_3_accessoryCost",
+      "valueType": "C_3_accessoryCost",
+      "comparisonValuePath": "forDebug.summary.cableFFC.C_3_accessoryCost"
+    },
+    "C_componentsCost": {
+      "label": "C.零件費",
+      "excelValueLongitudinalCoordinates": "330",
+      "valuekey": "C_componentsCost",
+      "valueType": "C_componentsCost",
+      "comparisonValuePath": "forDebug.summary.cableFFC.C_componentsCost"
+    },
+    "D_profitCost": {
+      "label": "D.管銷利潤費用",
+      "excelValueLongitudinalCoordinates": "332",
+      "valuekey": "D_profitCost",
+      "valueType": "D_profitCost",
+      "comparisonValuePath": "forDebug.summary.cableFFC.D_profitCost"
+    },
+    "totalCost": {
+      "label": "total",
+      "excelValueLongitudinalCoordinates": "333",
+      "valuekey": "totalCost",
+      "valueType": "totalCost",
+      "comparisonValuePath": "forDebug.summary.cableFFC.totalCost"
+    },
+    "pitch_id": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "pitch_id",
+      "valueType": "pitch_id",
+      "comparisonValuePath": "forDebug.summary.cableFFC.goldPlatingParams.pitch_id"
+    },
+    "pitch": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "pitch",
+      "valueType": "pitch",
+      "comparisonValuePath": "forDebug.summary.cableFFC.goldPlatingParams.pitch"
+    },
+    "pitchPrice": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "pitchPrice",
+      "valueType": "pitchPrice",
+      "comparisonValuePath": "forDebug.summary.cableFFC.goldPlatingParams.pitchPrice"
+    },
+    "pitchPerPinPrice": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "pitchPerPinPrice",
+      "valueType": "pitchPerPinPrice",
+      "comparisonValuePath": "forDebug.summary.cableFFC.goldPlatingParams.pitchPerPinPrice"
+    },
+    "adderPitchPinPrice": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "adderPitchPinPrice",
+      "valueType": "adderPitchPinPrice",
+      "comparisonValuePath": "forDebug.summary.cableFFC.goldPlatingParams.adderPitchPinPrice"
+    },
+    "second": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "second",
+      "valueType": "second",
+      "comparisonValuePath": "forDebug.summary.cableFFC.accessoryAssyTimeParams.twine.param2.second"
+    },
+    "limit": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "limit",
+      "valueType": "limit",
+      "comparisonValuePath": "forDebug.summary.cableFFC.accessoryAssyTimeParams.twine.param2.limit"
+    },
+    "interval": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "interval",
+      "valueType": "interval",
+      "comparisonValuePath": "forDebug.summary.cableFFC.accessoryAssyTimeParams.twine.param1.interval"
+    },
+    "FFCAccessoryLossRate": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCAccessoryLossRate",
+      "valueType": "FFCAccessoryLossRate",
+      "comparisonValuePath": "forDebug.debugInfo.cableFfcAccessory-0330d82e-9d74-47f6-b9de-6ba3d86fe749.FFCAccessoryLossRate.value"
+    },
+    "FFCTagLossRate": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCTagLossRate",
+      "valueType": "FFCTagLossRate",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCTagLossRate.value"
+    },
+    "FFCDoubleSidedTapeLossRate": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCDoubleSidedTapeLossRate",
+      "valueType": "FFCDoubleSidedTapeLossRate",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCDoubleSidedTapeLossRate.value"
+    },
+    "FFCAcetateClothLossRate": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCAcetateClothLossRate",
+      "valueType": "FFCAcetateClothLossRate",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCAcetateClothLossRate.value"
+    },
+    "FFCAluminumMylarCompoundLossRate": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCAluminumMylarCompoundLossRate",
+      "valueType": "FFCAluminumMylarCompoundLossRate",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCAluminumMylarCompoundLossRate.value"
+    },
+    "FFCConductiveClothLossRate": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCConductiveClothLossRate",
+      "valueType": "FFCConductiveClothLossRate",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCConductiveClothLossRate.value"
+    },
+    "FFCOneSideConductorAluminumFoilLossRate": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCOneSideConductorAluminumFoilLossRate",
+      "valueType": "FFCOneSideConductorAluminumFoilLossRate",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCOneSideConductorAluminumFoilLossRate.value"
+    },
+    "FFCDoubleSideConductorAluminumFoilLossRate": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCDoubleSideConductorAluminumFoilLossRate",
+      "valueType": "FFCDoubleSideConductorAluminumFoilLossRate",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCDoubleSideConductorAluminumFoilLossRate.value"
+    },
+    "FFCMylarLossRate": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCMylarLossRate",
+      "valueType": "FFCMylarLossRate",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCMylarLossRate.value"
+    },
+    "FFCReleasePaperTypeLossRate": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCReleasePaperTypeLossRate",
+      "valueType": "FFCReleasePaperTypeLossRate",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCReleasePaperTypeLossRate.value"
+    },
+    "lengthAdder": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "lengthAdder",
+      "valueType": "lengthAdder",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.lengthAdder.value"
+    },
+    "widthAdder": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "widthAdder",
+      "valueType": "widthAdder",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.widthAdder.value"
+    },
+    "twineLengthConst": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "twineLengthConst",
+      "valueType": "twineLengthConst",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.twineLengthConst.value"
+    },
+    "twineLengthIntervalConst": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "twineLengthIntervalConst",
+      "valueType": "twineLengthIntervalConst",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.twineLengthIntervalConst.value"
+    },
+    "twineLengthSec": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "twineLengthSec",
+      "valueType": "twineLengthSec",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.twineLengthSec.value"
+    },
+    "twineAssemblyLengthSecAdder": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "twineAssemblyLengthSecAdder",
+      "valueType": "twineAssemblyLengthSecAdder",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.twineAssemblyLengthSecAdder.value"
+    },
+    "m1Length": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "m1Length",
+      "valueType": "m1Length",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.m1Length.value"
+    },
+    "m2Length": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "m2Length",
+      "valueType": "m2Length",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.m2Length.value"
+    },
+    "m3Length": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "m3Length",
+      "valueType": "m3Length",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.m3Length.value"
+    },
+    "m1Width": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "m1Width",
+      "valueType": "m1Width",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.m1Width.value"
+    },
+    "m2Width": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "m2Width",
+      "valueType": "m2Width",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.m2Width.value"
+    },
+    "m3Width": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "m3Width",
+      "valueType": "m3Width",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.m3Width.value"
+    },
+    "m1Price": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "m1Price",
+      "valueType": "m1Price",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.m1Price.value"
+    },
+    "m2Price": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "m2Price",
+      "valueType": "m2Price",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.m2Price.value"
+    },
+    "m3Price": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "m3Price",
+      "valueType": "m3Price",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.m3Price.value"
+    },
+    "assayTimeMapped": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "assayTimeMapped",
+      "valueType": "string",
+      "comparisonValuePath": "forDebug.debugInfo.cableFfcAccessory-26cedb0c-25a4-4ad3-b7f3-8d1e965c384c.assayTimeMapped.label"
+    },
+    "weldingAssemblySec": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "weldingAssemblySec",
+      "valueType": "weldingAssemblySec",
+      "comparisonValuePath": "forDebug.debugInfo.cableFfcConnector-9c68924c-b766-4975-aa04-66f187f0c0fb.weldingAssemblySec.value"
+    },
+    "punctureAssemblySec": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "punctureAssemblySec",
+      "valueType": "punctureAssemblySec",
+      "comparisonValuePath": "forDebug.debugInfo.cableFfcConnector-9c68924c-b766-4975-aa04-66f187f0c0fb.punctureAssemblySec.value"
+    },
+    "FFCConnectorAssemblyType": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCConnectorAssemblyType",
+      "valueType": "FFCConnectorAssemblyType",
+      "comparisonValuePath": "forDebug.debugInfo.cableFfcConnector-9c68924c-b766-4975-aa04-66f187f0c0fb.FFCConnectorAssemblyType.value"
+    },
+    "FFCConnectorPitch": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCConnectorPitch",
+      "valueType": "FFCConnectorPitch",
+      "comparisonValuePath": "forDebug.debugInfo.cableFfcConnector-9c68924c-b766-4975-aa04-66f187f0c0fb.FFCConnectorPitch.value"
+    },
+    "FFCConnectorRow": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCConnectorRow",
+      "valueType": "FFCConnectorRow",
+      "comparisonValuePath": "forDebug.debugInfo.cableFfcConnector-9c68924c-b766-4975-aa04-66f187f0c0fb.FFCConnectorRow.value"
+    },
+    "FFCConnectorVendor": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCConnectorVendor",
+      "valueType": "FFCConnectorVendor",
+      "comparisonValuePath": "forDebug.debugInfo.cableFfcConnector-9c68924c-b766-4975-aa04-66f187f0c0fb.FFCConnectorVendor.value"
+    },
+    "FFCConnectorVendorPn": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCConnectorVendorPn",
+      "valueType": "FFCConnectorVendorPn",
+      "comparisonValuePath": "forDebug.debugInfo.cableFfcConnector-9c68924c-b766-4975-aa04-66f187f0c0fb.FFCConnectorVendorPn.value"
+    },
+    "FFCConnectorPrice": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCConnectorPrice",
+      "valueType": "FFCConnectorPrice",
+      "comparisonValuePath": "forDebug.debugInfo.cableFfcConnector-9c68924c-b766-4975-aa04-66f187f0c0fb.FFCConnectorPrice.value"
+    },
+    "FFCConnectorLossRateValue": {
+      "label": "Connector lossRate",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCConnectorLossRateValue",
+      "valueType": "FFCConnectorLossRateValue",
+      "comparisonValuePath": "forDebug.debugInfo.cableFfcConnector-9c68924c-b766-4975-aa04-66f187f0c0fb.FFCConnectorLossRateValue.value"
+    },
+    "coatingMaterialSideConnectorConstant": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "coatingMaterialSideConnectorConstant",
+      "valueType": "coatingMaterialSideConnectorConstant",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.coatingMaterialSideConnectorConstant.value"
+    },
+    "coatingMaterialSideFlushConstant": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "coatingMaterialSideFlushConstant",
+      "valueType": "coatingMaterialSideFlushConstant",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.coatingMaterialSideFlushConstant.value"
+    },
+    "coatingWidthConstant": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "coatingWidthConstant",
+      "valueType": "coatingWidthConstant",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.coatingWidthConstant.value"
+    },
+    "coatingMaterialSideConstant": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "coatingMaterialSideConstant",
+      "valueType": "coatingMaterialSideConstant",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.coatingMaterialSideConstant.value"
+    },
+    "copperWireMaterialSideConstant": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "copperWireMaterialSideConstant",
+      "valueType": "copperWireMaterialSideConstant",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.copperWireMaterialSideConstant.value"
+    },
+    "pastingSec": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "pastingSec",
+      "valueType": "pastingSec",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.pastingSec.value"
+    },
+    "pastingLengthPerSec": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "pastingLengthPerSec",
+      "valueType": "pastingLengthPerSec",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.pastingLengthPerSec.value"
+    },
+    "pastingOtherSec": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "pastingOtherSec",
+      "valueType": "pastingOtherSec",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.pastingOtherSec.value"
+    },
+    "pastingMeasuringSec": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "pastingMeasuringSec",
+      "valueType": "pastingMeasuringSec",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.pastingMeasuringSec.value"
+    },
+    "pastingPerPrice": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "pastingPerPrice",
+      "valueType": "pastingPerPrice",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.pastingPerPrice.value"
+    },
+    "pastingLossRate": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "pastingLossRate",
+      "valueType": "pastingLossRate",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.pastingLossRate.value"
+    },
+    "stopLinePerPrice": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "stopLinePerPrice",
+      "valueType": "stopLinePerPrice",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.stopLinePerPrice.value"
+    },
+    "prittingPerPrice": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "prittingPerPrice",
+      "valueType": "prittingPerPrice",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.prittingPerPrice.value"
+    },
+    "goldPlatingPitchMapped": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "goldPlatingPitchMapped",
+      "valueType": "string",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.goldPlatingPitchMapped.label"
+    },
+    "goldPlatingPricePerLength": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "goldPlatingPricePerLength",
+      "valueType": "goldPlatingPricePerLength",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.goldPlatingPricePerLength.value"
+    },
+    "goldPlatingConstant": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "goldPlatingConstant",
+      "valueType": "goldPlatingConstant",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.goldPlatingConstant.value"
+    },
+    "flushPrice": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "flushPrice",
+      "valueType": "flushPrice",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.flushPrice.value"
+    },
+    "bendPrice": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "bendPrice",
+      "valueType": "bendPrice",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.bendPrice.value"
+    },
+    "sprayCodePrice": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "sprayCodePrice",
+      "valueType": "sprayCodePrice",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.sprayCodePrice.value"
+    },
+    "assemblyPerPrice": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "assemblyPerPrice",
+      "valueType": "assemblyPerPrice",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.assemblyPerPrice.value"
+    },
+    "reinforcingPlateConstant": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "reinforcingPlateConstant",
+      "valueType": "reinforcingPlateConstant",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.reinforcingPlateConstant.value"
+    },
+    "FFCReinforcingPlateLossRate": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCReinforcingPlateLossRate",
+      "valueType": "FFCReinforcingPlateLossRate",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCReinforcingPlateLossRate.value"
+    },
+    "profit": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "profit",
+      "valueType": "profit",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.profit.value"
+    },
+    "FFCCopperWireSpecPrice": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCCopperWireSpecPrice",
+      "valueType": "FFCCopperWireSpecPrice",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCCopperWireSpecPrice.value"
+    },
+    "FFCPin": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCPin",
+      "valueType": "FFCPin",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCPin.value"
+    },
+    "FFCPitch": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCPitch",
+      "valueType": "FFCPitch",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCPitch.value"
+    },
+    "FFCLength": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCLength",
+      "valueType": "FFCLength",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCLength.value"
+    },
+    "FFCCoatingSpecPrice": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCCoatingSpecPrice",
+      "valueType": "FFCCoatingSpecPrice",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCCoatingSpecPrice.value"
+    },
+    "FFCStopLine": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCStopLine",
+      "valueType": "FFCStopLine",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCStopLine.value"
+    },
+    "FFCPrintArea": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCPrintArea",
+      "valueType": "FFCPrintArea",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCPrintArea.value"
+    },
+    "FFCGoldPlating": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCGoldPlating",
+      "valueType": "FFCGoldPlating",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCGoldPlating.value"
+    },
+    "FFCFlushCount": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCFlushCount",
+      "valueType": "FFCFlushCount",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCFlushCount.value"
+    },
+    "FFCBendTImes": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCBendTImes",
+      "valueType": "FFCBendTImes",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCBendTImes.value"
+    },
+    "FFCSprayCodeCount": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCSprayCodeCount",
+      "valueType": "FFCSprayCodeCount",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCSprayCodeCount.value"
+    },
+    "FFCReinforcingPlatePrice1": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCReinforcingPlatePrice1",
+      "valueType": "FFCReinforcingPlatePrice1",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCReinforcingPlatePrice1.value"
+    },
+    "FFCReinforcingPlatePrice2": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCReinforcingPlatePrice2",
+      "valueType": "FFCReinforcingPlatePrice2",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCReinforcingPlatePrice2.value"
+    },
+    "FFCReinforcingPlateLength1": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCReinforcingPlateLength1",
+      "valueType": "FFCReinforcingPlateLength1",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCReinforcingPlateLength1.value"
+    },
+    "FFCReinforcingPlateLength2": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCReinforcingPlateLength2",
+      "valueType": "FFCReinforcingPlateLength2",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCReinforcingPlateLength2.value"
+    },
+    "FFCReinforcingPlateQty1": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCReinforcingPlateQty1",
+      "valueType": "FFCReinforcingPlateQty1",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCReinforcingPlateQty1.value"
+    },
+    "FFCReinforcingPlateQty2": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCReinforcingPlateQty2",
+      "valueType": "FFCReinforcingPlateQty2",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCReinforcingPlateQty2.value"
+    },
+    "FFCCopperWireLossRate": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCCopperWireLossRate",
+      "valueType": "FFCCopperWireLossRate",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCCopperWireLossRate.value"
+    },
+    "FFCCoatingLossRate": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCCoatingLossRate",
+      "valueType": "FFCCoatingLossRate",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCCoatingLossRate.value"
+    },
+    "FFCPastingLossRate": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCPastingLossRate",
+      "valueType": "FFCPastingLossRate",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCPastingLossRate.value"
+    },
+    "FFCStopLineLossRate": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCStopLineLossRate",
+      "valueType": "FFCStopLineLossRate",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCStopLineLossRate.value"
+    },
+    "FFCPrittingLossRate": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCPrittingLossRate",
+      "valueType": "FFCPrittingLossRate",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCPrittingLossRate.value"
+    },
+    "FFCGiltLossRate": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCGiltLossRate",
+      "valueType": "FFCGiltLossRate",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCGiltLossRate.value"
+    },
+    "FFCFlushLossRate": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCFlushLossRate",
+      "valueType": "FFCFlushLossRate",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCFlushLossRate.value"
+    },
+    "FFCBendLossRate": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCBendLossRate",
+      "valueType": "FFCBendLossRate",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCBendLossRate.value"
+    },
+    "FFCSprayCodeLossRate": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCSprayCodeLossRate",
+      "valueType": "FFCSprayCodeLossRate",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCSprayCodeLossRate.value"
+    },
+    "FFCAssembleLossRate": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCAssembleLossRate",
+      "valueType": "FFCAssembleLossRate",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCAssembleLossRate.value"
+    },
+    "copperWireMaterialSide": {
+      "label": "銅線邊料(mm)",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "copperWireMaterialSide",
+      "valueType": "copperWireMaterialSide",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.copperWireMaterialSide.value"
+    },
+    "FFCCopperWireLossRateValue": {
+      "label": "銅線 lossRate",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCCopperWireLossRateValue",
+      "valueType": "FFCCopperWireLossRateValue",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCCopperWireLossRateValue.value"
+    },
+    "copperWireCost": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "copperWireCost",
+      "valueType": "copperWireCost",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.copperWireCost.value"
+    },
+    "coatingMaterialSideL": {
+      "label": "皮膜L 邊料(mm)",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "coatingMaterialSideL",
+      "valueType": "coatingMaterialSideL",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.coatingMaterialSideL.value"
+    },
+    "coatingCostWidth": {
+      "label": "皮膜 W",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "coatingCostWidth",
+      "valueType": "coatingCostWidth",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.coatingCostWidth.value"
+    },
+    "coatingMaterialSideW": {
+      "label": "皮膜W 邊料(mm)",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "coatingMaterialSideW",
+      "valueType": "coatingMaterialSideW",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.coatingMaterialSideW.value"
+    },
+    "slittingCount": {
+      "label": "皮膜 分條數",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "slittingCount",
+      "valueType": "slittingCount",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.slittingCount.value"
+    },
+    "FFCCoatingLossRateValue": {
+      "label": "皮膜 lossRate",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCCoatingLossRateValue",
+      "valueType": "FFCCoatingLossRateValue",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCCoatingLossRateValue.value"
+    },
+    "coatingCost": {
+      "label": "皮膜費用",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "coatingCost",
+      "valueType": "coatingCost",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.coatingCost.value"
+    },
+    "materialCost": {
+      "label": "A.材料費",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "materialCost",
+      "valueType": "materialCost",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.materialCost.value"
+    },
+    "pastingCount": {
+      "label": "貼合分條及導通裁切 數量",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "pastingCount",
+      "valueType": "pastingCount",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.pastingCount.value"
+    },
+    "pastingPrice": {
+      "label": "貼合分條及導通裁切 價格",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "pastingPrice",
+      "valueType": "pastingPrice",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.pastingPrice.value"
+    },
+    "FFCPastingLossRateValue": {
+      "label": "貼合分條及導通裁切 lossRate",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCPastingLossRateValue",
+      "valueType": "FFCPastingLossRateValue",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCPastingLossRateValue.value"
+    },
+    "pastingCost": {
+      "label": "B-1.貼合分條及導通裁切 費用",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "pastingCost",
+      "valueType": "pastingCost",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.pastingCost.value"
+    },
+    "stopLinePrice": {
+      "label": "停止線 價格",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "stopLinePrice",
+      "valueType": "stopLinePrice",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.stopLinePrice.value"
+    },
+    "FFCStopLineLossRateValue": {
+      "label": "停止線 lossRate",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCStopLineLossRateValue",
+      "valueType": "FFCStopLineLossRateValue",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCStopLineLossRateValue.value"
+    },
+    "stopLineCost": {
+      "label": "B-2.停止線 總價",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "stopLineCost",
+      "valueType": "stopLineCost",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.stopLineCost.value"
+    },
+    "prittingPrice": {
+      "label": "印刷 單價",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "prittingPrice",
+      "valueType": "prittingPrice",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.prittingPrice.value"
+    },
+    "FFCPrittingLossRateValue": {
+      "label": "印刷 lossRate",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCPrittingLossRateValue",
+      "valueType": "FFCPrittingLossRateValue",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCPrittingLossRateValue.value"
+    },
+    "prittingCost": {
+      "label": "B-3.印刷 費用",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "prittingCost",
+      "valueType": "prittingCost",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.prittingCost.value"
+    },
+    "FFCGiltLossRateValue": {
+      "label": "金手指掛鍍 lossRate",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCGiltLossRateValue",
+      "valueType": "FFCGiltLossRateValue",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCGiltLossRateValue.value"
+    },
+    "goldPlatingCost": {
+      "label": "B-4.金手指 費用",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "goldPlatingCost",
+      "valueType": "goldPlatingCost",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.goldPlatingCost.value"
+    },
+    "FFCFlushLossRateValue": {
+      "label": "沖型 lossRate",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCFlushLossRateValue",
+      "valueType": "FFCFlushLossRateValue",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCFlushLossRateValue.value"
+    },
+    "flushCost": {
+      "label": "B-5.沖型費用",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "flushCost",
+      "valueType": "flushCost",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.flushCost.value"
+    },
+    "FFCBendLossRateValue": {
+      "label": "折彎 lossRate",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCBendLossRateValue",
+      "valueType": "FFCBendLossRateValue",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCBendLossRateValue.value"
+    },
+    "bendCost": {
+      "label": "B-6.折彎費用",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "bendCost",
+      "valueType": "bendCost",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.bendCost.value"
+    },
+    "FFCSprayCodeLossRateValue": {
+      "label": "噴碼 lossRate",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCSprayCodeLossRateValue",
+      "valueType": "FFCSprayCodeLossRateValue",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCSprayCodeLossRateValue.value"
+    },
+    "sprayCodeCost": {
+      "label": "B-7.噴碼費用",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "sprayCodeCost",
+      "valueType": "sprayCodeCost",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.sprayCodeCost.value"
+    },
+    "FFCAssembleLossRateValue": {
+      "label": "組裝 lossRate",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "FFCAssembleLossRateValue",
+      "valueType": "FFCAssembleLossRateValue",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.FFCAssembleLossRateValue.value"
+    },
+    "assemblyCost": {
+      "label": "B-8.組裝費用",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "assemblyCost",
+      "valueType": "assemblyCost",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.assemblyCost.value"
+    },
+    "secondaryProcessingCost": {
+      "label": "B.二次加工費",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "secondaryProcessingCost",
+      "valueType": "secondaryProcessingCost",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.secondaryProcessingCost.value"
+    },
+    "connectorCost": {
+      "label": "C-1.connector 費用",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "connectorCost",
+      "valueType": "connectorCost",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.connectorCost.value"
+    },
+    "reinforcingPlateWidth": {
+      "label": "補強板W",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "reinforcingPlateWidth",
+      "valueType": "reinforcingPlateWidth",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.reinforcingPlateWidth.value"
+    },
+    "reinforcingPlateCost": {
+      "label": "C-2.補強板 費用",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "reinforcingPlateCost",
+      "valueType": "reinforcingPlateCost",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.reinforcingPlateCost.value"
+    },
+    "accessoryGroupValues": {
+      "label": "輔料費用Groups",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "accessoryGroupValues",
+      "valueType": "string",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.accessoryGroupValues.label"
+    },
+    "accessoryGroupsTotal": {
+      "label": "輔料費用計算",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "accessoryGroupsTotal",
+      "valueType": "string",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.accessoryGroupsTotal.label"
+    },
+    "accessoryCost": {
+      "label": "輔料費用加總",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "accessoryCost",
+      "valueType": "accessoryCost",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.accessoryCost.value"
+    },
+    "componentsCost": {
+      "label": "C.零件費",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "componentsCost",
+      "valueType": "componentsCost",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.componentsCost.value"
+    },
+    "profitCost": {
+      "label": "D.管銷利潤費用",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "profitCost",
+      "valueType": "profitCost",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.profitCost.value"
+    },
+    "goldPlatingParams": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "goldPlatingParams",
+      "valueType": "string",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.goldPlatingParams.label"
+    },
+    "accessoryAssyTimeParams": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "accessoryAssyTimeParams",
+      "valueType": "string",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.accessoryAssyTimeParams.label"
+    },
+    "connectorGroupValues": {
+      "label": "",
+      "excelValueLongitudinalCoordinates": "",
+      "valuekey": "connectorGroupValues",
+      "valueType": "string",
+      "comparisonValuePath": "forDebug.debugInfo.cableFFC.connectorGroupValues.label"
+    }
+  }
+}
